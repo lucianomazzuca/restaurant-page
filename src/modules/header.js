@@ -8,9 +8,10 @@ function header() {
 
     const nav = document.createElement('div');
     nav.classList.add('nav');
-    nav.innerHTML =`<li><a href="">Home</a></li>
-    <li><a href="">Menu</a></li>
-    <li><a href="">Contact</a></li>`
+    nav.innerHTML = `
+    <li id = 'home'>Home</li>
+    <li id = 'menu'>Menu</li>
+    <li id = 'contact'>Contact</li>`
     
     headerContainer.appendChild(logo);
     headerContainer.appendChild(nav);

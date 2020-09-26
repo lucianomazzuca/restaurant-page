@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px;
+    height: 100px;
     background-color: black;
     color: white;
 }
@@ -28,10 +28,61 @@
 .header .nav li{
     list-style: none;
     font-size: 22px;
+    cursor: pointer;
 }
 
-.header .nav li a{
-    color: white;
-    text-decoration: none;
+
+.header .nav li:hover{
+    color: orange;
 }
 
+.home{
+    width: 100%;
+    position: relative;
+}
+
+.home img{
+    width: 100%;
+    min-height: 400px;
+}
+
+.home .about{
+    color: black;
+}
+
+.home .about{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.home .about h2{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.home .about p{
+    font-size: 20px;
+}
+
+.menu{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.menu h1{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.menu .plate{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu .plate img{
+    width: 100%;
+}
